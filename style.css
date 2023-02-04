@@ -127,3 +127,17 @@ b {
 .warning {
     color: var(--color-warning);
 }
+
+aside{
+    height: 100vh;
+    background: gray;
+}
+
+aside .top{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
