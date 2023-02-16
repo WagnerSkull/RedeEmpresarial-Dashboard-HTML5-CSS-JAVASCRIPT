@@ -525,7 +525,7 @@ main .recent-orders a {
 }
 
 /* ======---MEDIA QUERIES---====== */
-@media screen and (max-widht:1200px) {
+@media screen and (max-width:1200px) {
     .container {
         width: 94%;
         grid-template-columns: 7rem auto 23rem;
