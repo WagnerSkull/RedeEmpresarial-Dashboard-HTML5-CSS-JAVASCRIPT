@@ -525,7 +525,6 @@ main .recent-orders a {
 }
 
 /* ======---MEDIA QUERIES---====== */
-
 @media screen and (max-widht:1200px) {
     .container {
         width: 94%;
@@ -537,30 +536,40 @@ main .recent-orders a {
     }
 
     aside .sidebar h3 {
-    display: none;
+        display: none;
+    }
+
+    aside .sidebar a:last-child {
+        position: relative;
+        margin-top: 1.8rem;
+    }
+
+    main .insights {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    main .recent-orders {
+        width: 94%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 2rem 0 0 8.8rem;
+    }
+
+    main .recent-orders table {
+        width: 83vw;
+    }
+
+    main table thead tr th:last-child,
+    main table thead tr th:first-child {
+        display: none;
+    }
+
+    main table thead tr td:last-child,
+    main table thead tr td:first-child {
+        display: none;
+    }
 }
 
-aside .sidebar a:last-child {
-    position: relative;
-    margin-top: 1.8rem;
-}
-
-main .insights {
-    grid-template-columns: 1fr;
-    gap: 0;
-}
-
-main .recent-orders {
-    width: 94%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    margin: 2rem 0 0 8.8rem;
-}
-
-main .recent-orders table {
-    width: 83vw;
-}
-
-
-}
+/* ======---MEDIA QUERIES MOB---====== */
