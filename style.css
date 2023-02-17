@@ -669,11 +669,10 @@ margin: 0;
     cursor: pointer;
     color: var(--color-dark);
     position: absolute;
-
+left: 1rem;
 }
 
 .right .top button span {
     font-size: 2rem;
 }
-
 }
