@@ -45,11 +45,12 @@ Orders.forEach(order => {
                            <td>${order.productName}</td>
                             <td>${order.productNumber}</td>
                             <td>${order.paymentStatus}</td>
-                            <td class="warning">${order.shipping === 'pending' ? 'warning' : 'primary'}">${order.shipping}</td>
+                            <td class="${order.shipping === 'pending' ? 'warning' : 'primary'}">${order.shipping}</td>
                             <td class="primary">Details</td>`;
                             
-                            //
+                            //tr no HTML
                             tr.innerHTML = trContent;
-                            document.querySelector
+                           //Selecionando a tabela e anexando as ordem
+                            document.querySelector('table tbody').appendChild(tr)
                             
 });

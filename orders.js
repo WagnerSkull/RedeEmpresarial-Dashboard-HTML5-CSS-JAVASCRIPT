@@ -41,4 +41,4 @@ const Orders = [
         paymentStatus: 'Paid',
         shipping: 'Delivered'
     }
-]
+];
